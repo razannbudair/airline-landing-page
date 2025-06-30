@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fly High | Airlines</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="master.css" />
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="container">
+        <div class="form-card fade-in">
+          <h2><i class="fa fa-plane"></i> Best Airlines</h2>
+          <form action="#" method="post" novalidate>
+            <label for="membership">Membership</label>
+            <input
+              type="text"
+              id="membership"
+              name="membership"
+              placeholder="Enter ID"
+              required
+              minlength="4"
+              maxlength="9"
+            />
+
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter Password"
+              required
+              minlength="8"
+            />
+
+            <button type="submit">Login</button>
+
+            <div class="extra-links">
+              <a href="#">Forgot Password?</a>
+              <a href="#">Sign Up</a>
+            </div>
+          </form>
+          <p class="footer-text">
+            &copy; 2025 Razan Production — <a href="#">Privacy Policy</a>
+          </p>
+        </div>
+        <div class="intro fade-in">
+          <div class="lang-button">
+            <button class="rtl-toggle" onclick="toggleRTL()">
+              Arabic / English
+            </button>
+          </div>
+
+          <div class="text-block">
+            <h2>Fly high above the sky</h2>
+            <h3>TIME TO</h3>
+            <h1>TRAVEL</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function toggleRTL() {
+        const html = document.documentElement;
+        html.dir = html.dir === 'ltr' ? 'rtl' : 'ltr';
+      }
+    </script>
+  </body>
+</html>
