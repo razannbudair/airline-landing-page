@@ -19,5 +19,5 @@ Welcome to the **Fly High Airlines Landing Page**, a modern and responsive front
 
 ## 🚀 Demo
 
-[🔗 Live Demo](https://razannbudair.github.io/airlines-landing-page/)
+[🔗 Live Demo](https://airline-landing-page.vercel.app/)
 
